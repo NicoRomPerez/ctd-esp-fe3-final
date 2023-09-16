@@ -5,7 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import ControlledTextInput from "dh-marvel/components/controlled-text-input/ControlledTextInput.component";
 import deliverySchema from "./schema";
 import StepperNavigation from "../stepper-navigation.component";
-import { IAddress } from "types/ICheckout.type";
+import { IAddress } from "types";
 
 export type DeliveryFormProps = {
   data: IAddress;

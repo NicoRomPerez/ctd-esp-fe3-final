@@ -5,7 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import paymentSchema from "./schema";
 import { Box, Stack } from "@mui/material";
 import StepperNavigation from "../stepper-navigation.component";
-import { ICard } from "types/ICheckout.type";
+import { ICard } from "types";
 
 export type PaymentFormProps = {
   activeStep: number;
